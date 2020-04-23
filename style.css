@@ -1,0 +1,25 @@
+*{
+  font-style: italic;
+  font-family: monospace;
+}
+
+.pageTitle{
+  font-size: 50pt;
+}
+
+.pageDescription{
+  font-size: 40pt;
+}
+
+.imageContainer{
+  height: 100%;
+  width: 100%;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  justify-content: : center;
+}
