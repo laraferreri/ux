@@ -11,15 +11,19 @@
   font-size: 40pt;
 }
 
-.imageContainer{
-  height: 100%;
-  width: 100%;
+.glide img{
+  display: flex;
+  height: 25%;
+  width: 25%;
 }
 
-.imageContainer {
+.glide__arrow{
+  color: black;
+  border: black;
+}
+
+.lozad{
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-  justify-content: : center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
 }
